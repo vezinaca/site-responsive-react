@@ -1,5 +1,7 @@
 import React from 'react';
 import "./Cli.css";
+import "../MediaQueries.css";
+
 
 const Cli = () => {
     return (

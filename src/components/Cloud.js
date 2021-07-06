@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Cloud.css";
+// import "../MediaQueries.css";
+// import "../Test.css";
+
 
 const Cloud = () => {
     return (

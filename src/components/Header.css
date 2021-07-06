@@ -29,3 +29,21 @@
     padding: 0 40px;
     
 }
+
+/** Mobile **/
+
+ @media (max-width: 700px) {
+    .navbar {
+        height: 110px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+ 
+}

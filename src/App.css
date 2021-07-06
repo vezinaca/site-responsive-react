@@ -55,9 +55,6 @@ img {
     text-align: center;
 }
 
-
-
-
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -247,7 +244,7 @@ img {
 
 /** Tablets and under */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .grid, 
     .showcase .grid,
     .stats .grid,
@@ -257,22 +254,5 @@ img {
         grid-template-rows: 1fr;
     }
 
-}
+} */
 
-/** Mobile **/
-
-@media (max-width: 600px) {
-    .navbar {
-        height: 110px;
-    }
-
-    .navbar .flex {
-        flex-direction: column;
-    }
-
-    .navbar ul {
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.1);
-
-    }
-}
